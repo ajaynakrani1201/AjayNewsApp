@@ -1,7 +1,9 @@
 ** AjayNewsApp
+
 AjayNewsApp is a modern Android news reader app built using Jetpack Compose, MVVM, Hilt, Retrofit, and Native C++ for API key protection. It fetches top news headlines related to India using the NewsAPI.
 
 ** Features
+
 Clean MVVM architecture
 API key stored securely using native C++ (.so file)
 News fetched using Retrofit and displayed using Jetpack Compose
@@ -10,6 +12,7 @@ Navigation using Jetpack Navigation Compose
 Dark/Light mode support with dynamic Material 3 theming
 
 ** Tech Stack
+
 Language: Kotlin, C++
 UI: Jetpack Compose + Material 3
 Architecture: MVVM + Repository + UseCase
@@ -19,12 +22,13 @@ Image Loading: Coil (AsyncImage)
 Native Integration: JNI(NDK 29.0.13113456) + CMake(3.4.1)
 
 ** Setup Instructions
-Clone this repository
 
+Clone this repository
 git clone https://github.com/ajaynakrani1201/AjayNewsApp.git
 cd AjayNewsApp
 
 ** Add Native Key
+
 API key is fetched from C++:
 
 std::string str = "<your_actual_api_key_here>";
@@ -36,11 +40,13 @@ Ensure CMakeLists.txt and native-lib.cpp are in place.
 Native library (native-lib) will be built and loaded automatically.
 
 ** Run the app
+
 Open in Android Studio
 Sync Gradle
 Run on emulator or physical device
 
 ** Folder Structure
+
 com.example.ajaynewsapp
 ├── ui            // Composables: HomeScreen, DetailScreen
 ├── network       // Retrofit API service, Interceptors
@@ -53,7 +59,8 @@ com.example.ajaynewsapp
 ├── theme         // ColorScheme and Typography
 
 ** Key Classes Explained
-1. ApiKeyInterceptor
+
+1.ApiKeyInterceptor
 Adds the apiKey as a query parameter in every API request using OkHttp Interceptor.
 
 2. NativeLibraryData
@@ -79,11 +86,13 @@ HomeScreen is checking internet connection with retry button to load top news on
 Composable UIs to show article list and details with image + content.
 
 ** API Reference
+
 Powered by https://newsapi.org
 Endpoint used:
 GET /v2/everything?q=india&apiKey=YOUR_API_KEY
 
 ** Future Improvements
+
 Pagination
 Categories filter
 Room DB caching
