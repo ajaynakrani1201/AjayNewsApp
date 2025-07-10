@@ -21,7 +21,7 @@ Native Integration: JNI(NDK 29.0.13113456) + CMake(3.4.1)
 ** Setup Instructions
 Clone this repository
 
-git clone https://github.com/your_username/AjayNewsApp.git
+git clone https://github.com/ajaynakrani1201/AjayNewsApp.git
 cd AjayNewsApp
 
 ** Add Native Key
