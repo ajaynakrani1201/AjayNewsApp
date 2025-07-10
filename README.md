@@ -1,7 +1,9 @@
 ** AjayNewsApp
+
 AjayNewsApp is a modern Android news reader app built using Jetpack Compose, MVVM, Hilt, Retrofit, and Native C++ for API key protection. It fetches top news headlines related to India using the NewsAPI.
 
 ** Features
+
 Clean MVVM architecture
 API key stored securely using native C++ (.so file)
 News fetched using Retrofit and displayed using Jetpack Compose
@@ -10,6 +12,7 @@ Navigation using Jetpack Navigation Compose
 Dark/Light mode support with dynamic Material 3 theming
 
 ** Tech Stack
+
 Language: Kotlin, C++
 UI: Jetpack Compose + Material 3
 Architecture: MVVM + Repository + UseCase
