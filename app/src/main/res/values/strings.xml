@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="no_title_available">No title available</string>
+    <string name="article_image_label">Article Image</string>
+    <string name="no_content_available">No content available</string>
+    <string name="back_desc">Back</string>
+    <string name="home_screen_title">Top News</string>
+    <string name="retry_btn">Retry</string>
+    <string name="network_error">Network error. Please check your connection.</string>
+    <string name="error_unknown">Something went wrong.</string>
+</resources>
