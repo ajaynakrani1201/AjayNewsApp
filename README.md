@@ -49,14 +49,23 @@ Run on emulator or physical device
 
 com.example.ajaynewsapp
 ├── ui            // Composables: HomeScreen, DetailScreen
+
 ├── network       // Retrofit API service, Interceptors
+
 ├── repository    // Interface and Implementation
+
 ├── viewmodel     // HomeViewModel
+
 ├── di            // Hilt modules: NetworkModule, AppModule
+
 ├── utils         // NativeLibraryData (JNI Bridge)
+
 ├── MainActivity.kt
+
 ├── App.kt       // Application class
+
 ├── theme         // ColorScheme and Typography
+
 
 ** Key Classes Explained
 
