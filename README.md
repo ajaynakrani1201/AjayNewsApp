@@ -70,7 +70,7 @@ com.example.ajaynewsapp
 
 ** Key Classes Explained
 
-1.ApiKeyInterceptor
+1. ApiKeyInterceptor
 Adds the apiKey as a query parameter in every API request using OkHttp Interceptor.
 
 2. NativeLibraryData
