@@ -48,6 +48,7 @@ Run on emulator or physical device
 ** Folder Structure
 
 com.example.ajaynewsapp
+
 ├── ui            // Composables: HomeScreen, DetailScreen
 
 ├── network       // Retrofit API service, Interceptors
